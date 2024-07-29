@@ -1,4 +1,4 @@
-Run Windows Applications on Linux
+# Run Windows Applications on Linux
 
 This repository provides a script to set up and use Wine, a compatibility layer that allows running Windows applications on Unix-like operating systems such as Linux.
 Available Script
@@ -8,7 +8,7 @@ Using the Provided Script
 
     Ensure Wine is Installed
 
-    Before using the script, make sure Wine is installed. If it's not, you can install it with the following commands:
+# Before using the script, make sure Wine is installed. If it's not, you can install it with the following commands:
 
     bash
 
@@ -16,7 +16,7 @@ sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install wine64 wine32
 
-Run the Provided Script
+# Run the Provided Script
 
 To use the script, simply run:
 
@@ -24,9 +24,9 @@ bash
 
     ~/run_windows_apps.sh
 
-    The script will check for Wine installation and prompt you to enter the path to a Windows executable file (.exe) that you want to run.
+# The script will check for Wine installation and prompt you to enter the path to a Windows executable file (.exe) that you want to run.
 
-Create Your Own Script
+# Create Your Own Script
 
 If you prefer to create the script yourself, follow these steps:
 1. Install Dependencies
